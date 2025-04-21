@@ -6,6 +6,9 @@ import Details from "./pages/Details";
 import Post from "./pages/Post";
 import Update from "./pages/Update";
 
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
+
 export default function App() {
   return (
     <Router>
