@@ -70,7 +70,12 @@ export default function Home() {
                   </small>
                 </div>
                 <p className="mb-1">{manhwa.description}</p>
-                <Link className="btn btn-primary me-2 mt-2">View Details</Link>
+                <Link
+                  className="btn btn-primary me-2 mt-2"
+                  to={`/details/${manhwa._id}`}
+                >
+                  View Details
+                </Link>
                 <button
                   className="btn btn-danger mt-2"
                   onClick={() => handleDelete(manhwa._id)}
